@@ -5,6 +5,8 @@ provider:
   stage: dev
   runtime: nodejs8.10
   region: us-east-2
+  apiKeys:
+  - myClientOne
 
 
 functions:
