@@ -1,1 +1,1 @@
-This project is to show how AWS Lambda works using Node.js 
+This project is to show how AWS Lambda works with Serverless Framework using Node.js 
