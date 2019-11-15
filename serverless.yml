@@ -1,0 +1,14 @@
+service: giveaway-winner-selection
+
+provider:
+  name: aws
+  stage: dev
+  runtime: nodejs8.10
+  region: us-east-2
+
+
+functions:
+  getWinners:
+    handler: handler.getWinners
+    events:
+      - http: GET get-winners
