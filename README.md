@@ -14,7 +14,7 @@ npm install -g serverless
 # Or, update the serverless cli from a previous version
 npm update -g serverless
 
-Finally: 
+#Finally: 
 serverless deploy 
 
-More documentation coming soon. 
+#More documentation coming soon. 
